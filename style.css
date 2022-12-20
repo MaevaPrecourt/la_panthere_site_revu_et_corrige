@@ -476,7 +476,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 19px!important;
 }
 
 .icon-lg {
@@ -649,6 +649,7 @@ p,
 label,
 .btn,
 a {
+    filter: contrast(0.9);
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
@@ -701,7 +702,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto auto 50px auto;
 }
 
 h2 {
