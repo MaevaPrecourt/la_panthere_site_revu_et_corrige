@@ -1,4 +1,5 @@
 body {
+    filter: contrast(1.5);
     margin: 0;
     padding: 0;
     background: #FFF;
@@ -649,7 +650,6 @@ p,
 label,
 .btn,
 a {
-    filter: contrast(0.9);
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
