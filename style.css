@@ -1,8 +1,8 @@
-ul {
+.col-sm-4 ul {
     margin-top: 15px!important;
 }
 
-ul li {
+.col-sm-4 ul li {
     height: 48px;
     width: 48px;
 }
