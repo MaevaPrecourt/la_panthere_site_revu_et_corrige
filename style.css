@@ -710,6 +710,7 @@ p {
 }
 
 .social {
+    filter: contrast(0.9);
     max-width: 400px;
     margin: auto auto 50px auto;
 }
@@ -783,6 +784,7 @@ h4 {
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
+    filter: contrast(0.9);
 }
 
 .tc-white {
