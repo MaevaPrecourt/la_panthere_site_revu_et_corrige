@@ -156,6 +156,7 @@ button,
 html input[type=button],
 input[type=reset],
 input[type=submit] {
+    appearance: button;
     -webkit-appearance: button;
     cursor: pointer
 }
@@ -192,6 +193,7 @@ input[type=search] {
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
+    appearance: textfield;
     -webkit-appearance: textfield
 }
 
@@ -3192,6 +3194,7 @@ textarea.form-control {
 }
 
 input[type=search] {
+    appearance: none;
     -webkit-appearance: none
 }
 
@@ -4286,7 +4289,7 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid\9;
+    border-top: 4px solid;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
 }
@@ -4373,7 +4376,7 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 
 .open>.dropdown-menu {
@@ -5124,7 +5127,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
@@ -7056,6 +7059,7 @@ button.list-group-item-danger.active:hover {
 }
 
 button.close {
+    appearance: none;
     -webkit-appearance: none;
     padding: 0;
     cursor: pointer;
@@ -7682,7 +7686,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #000;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
