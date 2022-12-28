@@ -8,8 +8,9 @@
 }
 
 .col-sm-12 p {
-    color: rgba(55, 55, 55, .6);
+    color: rgb(55, 55, 55)!important;
     font-size: 18px;
+    padding-left: 12.5px;
 }
 
 body {
@@ -147,7 +148,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(55, 55, 55, .6);
+    color: rgb(55, 55, 55);
 }
 
 .d-bloc .a-btn:hover,
@@ -715,7 +716,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto 50px auto;
+    margin: auto auto auto auto;
 }
 
 h3 {
