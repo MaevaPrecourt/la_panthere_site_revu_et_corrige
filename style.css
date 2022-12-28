@@ -8,6 +8,7 @@
 }
 
 .col-sm-12 p {
+    color: rgba(55, 55, 55, .6);
     font-size: 18px;
 }
 
@@ -146,7 +147,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgb(55, 55, 55, .6);
+    color: rgba(55, 55, 55, .6);
 }
 
 .d-bloc .a-btn:hover,
