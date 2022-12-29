@@ -109,9 +109,10 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
+#bloc-6::before {
+    background-image: url("img/texture-paper.jpg");
     background-size: 280px 280px;
+    opacity: 1;
 }
 
 .b-parallax {
@@ -326,7 +327,7 @@ a:hover {
     display: inline;
 }
 
-.navbar-brand img[src$=svg] {
+.navbar-brand img[src$=jpg] {
     min-width: 100px;
 }
 
